@@ -1,3 +1,10 @@
+/* CUSTOM PROPS */
+:root {
+  --primary: #ea625c;
+  --text-color: #333;
+}
+
+
 /* GLOBAL */
 
 html {
@@ -18,11 +25,11 @@ body  {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background-color: #fff;
-  color: #000;
+  color: var(--text-color);
 }
 
 img {
@@ -34,7 +41,7 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1100px;
   padding-left: 50px;
   padding-right: 50px;
   margin-left: auto;
